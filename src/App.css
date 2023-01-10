@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.row{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+/* ============Header Styles================== */
+
+
+
+/* ============About Styles================== */
+.about_container{
+  border: 2px solid red;
+  height: 40vh;
+}
+
+
+
+/* ============Listofproperty Styles================ */
+.property_container{
+  border: 2px solid blue;
+  background-color: #F5F5F5;
+  /* height: 40vh; */
+}
+
+
+/* ============Services Styles================== */
+.services_container{
+  border: 2px solid green;
+}
+.services_container .row{
+  /* border: 2px solid green; */
+  height: 80vh;
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+
+.services_left{
+  border: 2px solid red;
+  width: 55%;
+  height: 100%;
+}
+.services_left .parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 2px solid green;
+  height: 100%;
+  }
+  
+  .parent .div1 { grid-area: 1 / 1 / 4 / 2; border: 2px solid blue;}
+  .parent .div2 { grid-area: 4 / 1 / 6 / 2; border: 2px solid blue;}
+  .parent .div3 { grid-area: 1 / 2 / 3 / 3; border: 2px solid blue;}
+  .parent .div4 { grid-area: 3 / 2 / 6 / 3; border: 2px solid blue;}
+
+
+  .div1 img{
+    width: 100%;
+    height: 100%;
+  }
+  .div2 img{
+    width: 100%;
+    height: 100%;
+  }
+  .div3 img{
+    width: 100%;
+    height: 100%;
+  }
+  .div4 img{
+    width: 100%;
+    height: 100%;
+  }
+
+.services_right{
+  border: 2px solid red;
+  width: 45%;
+  height: 100%;
+  padding: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.services_right h2{
+  font-size: 2rem;
+  font-weight: 600;
+
+  /* margin-bottom: 1rem; */
+}
+.services_right p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.services_right a{
+  background-color: #F4511E;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px){
+  .services_container .row{
+    flex-direction: column;
+    height: 100%;
+  }
+  .services_left{
+    width: 100%;
+  }
+  .services_right{
+    width: 100%;
+  }
+  .services_right h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .services_right p{
+    font-size: 0.8rem;
+
+  }
+  .services_right a{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+}
+  
+
+
+
+
+/* ============Contact Styles================== */
+.contact_container{
+  border: 2px solid yellow;
+  height: 40vh;
+}
+
+
+
+/* ============Testimony Styles================== */
+.testimony_container{
+  border: 2px solid black;
+  height: 70vh;
+  width: 100%;
+}
+.testimony_container .testimony_content{
+  border: 2px solid purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.testimony_content .testimony_left{
+  width: 55%;
+  height: 100%;
+  border: 2px solid red;
+  background: rgba(244, 81, 30, 0.07);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  /* align-items: center; */
+}
+
+.testimony_left .para{
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.testimony_left .profile{
+  display: flex;
+  /* padding: 10px; */
+}
+.testimony_left .profile p{
+  border: 2px solid red;
+  /* padding: 10px; */
+}
+.testimony_content .testimony_right{
+  width: 45%;
+  height: 100%;
+  border: 2px solid blue;
+  /* background-image: url('../src/assets/testi1.png') no-repeat center cover; */
+}
+
+/* .testimony_content .testimony_left{
+  width: 55%;
+  height: 100%;
+} */
+
+@media screen and (max-width: 768px){
+  .testimony_container .testimony_content{
+    flex-direction: column;
+    height: 100%;
+  }
+  .testimony_content .testimony_left{
+    width: 100%;
+  }
+  .testimony_content .testimony_right{
+    width: 100%;
+  }
+}
+
+
+
+
+/* ============Footer Styles================== */
+.footer_container{
+  border: 2px solid red;
+  height: 40vh;
+}
