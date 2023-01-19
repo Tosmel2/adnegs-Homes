@@ -27,7 +27,7 @@ const About = () => {
   return (
     <div className='about_container'>
       <div className='row'>
-        <h1 className='pl-5 text-2xl font-bold' style={{border:'2px solid red'}}>minimum living cost takes care of everything</h1>
+        <h1 className='pl-2 text-2xl font-bold' style={{border:'2px solid red'}}>minimum living cost takes care of everything</h1>
 
         <div className='about-box'>
 

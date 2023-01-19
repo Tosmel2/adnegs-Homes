@@ -215,7 +215,7 @@ const ListOfProperties = () => {
         </div>
 
 
-<div class="max-w-2xl mx-auto mb-7 mt-5 ">
+<div class="max-w-2xl mx-auto mb-7 mt-5 text-center">
 
 	<nav aria-label="Page navigation example ">
 		<ul class="inline-flex -space-x-px">
@@ -225,7 +225,7 @@ const ListOfProperties = () => {
 			</li>
 			<li>
 				<a href="facebook.com/user" target="_blank"
-					class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+					class="bg-white border border-gray-300 text-gray-500 hover:bg-orange-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
 			</li>
 			{/* <li>
 				<a href="facebook.com/user" target="_blank"
@@ -233,7 +233,7 @@ const ListOfProperties = () => {
 			</li> */}
 			<li>
 				<a href="facebook.com/user" target="_blank"
-					class="bg-orange-500 border border-gray-300 text-white hover:bg-blue-100 hover:text-blue-700  py-2 px-3 dark:border-gray-700 dark:bg-gray-700 dark:text-white">2</a>
+					class="bg-orange-500 border border-gray-300 text-white hover:bg-orange-100 hover:text-blue-700  py-2 px-3 dark:border-gray-700 dark:bg-gray-700 dark:text-white">2</a>
 			</li>
 			{/* <li>
 				<a href="facebook.com/user" target="_blank"
@@ -241,7 +241,7 @@ const ListOfProperties = () => {
 			</li> */}
 			<li>
 				<a href="facebook.com/user" target="_blank"
-					class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
+					class="bg-white border border-gray-300 text-gray-500 hover:bg-orange-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
 			</li>
 			<li>
 				<a href="facebook.com/user" target="_blank"
