@@ -40,7 +40,7 @@ const Testimony = () => {
          backgroundSize: 'cover',
          }}>
 
-          <span className='absolute inset-0 flex items-center justify-center'><i class="fa-solid fa-play text-center text-4xl" style={{padding: '5px', backgroundColor: '#F4511E', color: '#fff', borderRadius: '50%', height:'50px', width: '50px'}}></i></span>
+          <span className='absolute inset-0 flex items-center justify-center'><i class="fa-solid fa-play text-center text-3xl" style={{padding: '8px', backgroundColor: '#F4511E', color: '#fff', borderRadius: '50%', height:'50px', width: '50px'}}></i></span>
           
         </div>
 
