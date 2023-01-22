@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className='footer-right text-center leading-8'>
           <p><i class="fa-solid fa-location-dot"></i>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
-          <p><span className='mr-4'><i class="fa-solid fa-phone"></i>(123) 456-7890</span> <span className='ml-4'><i class="fa-solid fa-print"></i>(123) 456-7890</span></p>
+          <p><span className='mr-4'><i class="fa-solid fa-phone"></i>(234) 806-8957-966</span> <span className='ml-4'><i class="fa-solid fa-print"></i>(123) 456-7890</span></p>
           <p><span className='p-3'> Social Media </span><br />
           <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-twitter"></i>
