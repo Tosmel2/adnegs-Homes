@@ -30,5 +30,5 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 5. If you want to customize the icon, you can pass additional props such as size and color.
 <FontAwesomeIcon icon={faCoffee} size="2x" color="red" />
 
-Link: https://adnegshomes-rentals.netlify.app/
+Link: https://adnegshome-rentals.netlify.app/
 
