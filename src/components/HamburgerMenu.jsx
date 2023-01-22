@@ -28,7 +28,7 @@ const HamburgerMenu = () => {
       <FaBars className="text-3xl cursor-pointer absolute top-4 right-3 text-white" onClick={() => setIsOpen(!isOpen)} />
       {isOpen && (
         <div className="absolute top-16 right-0 bg-white px-3 py-6 rounded-md shadow-md w-full">
-           <ul className="mb-3 text-xl">
+           <ul>
             <li className="mb-3 text-xl"><a href="/">Home</a></li>
             <li className="mb-3 text-xl"><a href="/">LandLord</a></li>
             <li className="mb-3 text-xl"><a href="/">Tenants</a></li>

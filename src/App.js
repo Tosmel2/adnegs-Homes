@@ -4,7 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import ListOfProperties from './components/ListOfProperties';
 import Services from './components/Services';
-import Contact from './components/Contact';
+import AddNewProperty from './components/AddNewProperty';
 import Testimony from './components/Testimony';
 import Footer from './components/Footer';
 
@@ -16,7 +16,7 @@ function App() {
       <About />
       <ListOfProperties  />
       <Services  />
-      <Contact  />
+      <AddNewProperty  />
       <Testimony  />
       <Footer  />
       

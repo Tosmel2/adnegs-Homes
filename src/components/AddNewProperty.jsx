@@ -1,22 +1,17 @@
-// import React from 'react'
 import React, { useState } from 'react';
 import states from '../assets/states.json';
 
 
-const Contact = () => {
+const AddNewProperty = () => {
   const [file, setFile] = useState(null);
 
-  function handleFileChange(event) {
-    const file = event.target.files[0];
-    // do something with the file, for example:
-    console.log(file.name);
-}
 
-  function handleFileUpload(e) {
-    setFile(e.target.files[0]);
-  }
+  const handleFileUpload = event => {
+    setFile(event.target.files[0]);
+  };
+
   return (
-    <div className='contact_container'>
+    <div className='AddNewProperty_container'>
       <div className='row'>
         <section class="text-gray-600 body-font relative">
         <div class="container px-5 py-24 mx-auto">
@@ -117,24 +112,19 @@ const Contact = () => {
               <div class="p-2 w-full">
               <label for="message" class="leading-7 text-sm text-gray-600">Upload Photos</label>
                   <div class="p-10 w-full rounded border text-center" style={{border:'2px dashed #F4511E'}}>
-                  {/* <a href="/" className='text-center' onClick={() => document.getElementById("file-input").click()}>Browse File</a> */}
-                <input
-                  type="file"
-                  id="file-input"
-                  style={{ display: "none" }}
-                  onChange={handleFileUpload}
-                />
-                {/* {file && <p>{file.name}</p>} */}
+                  <p className='font-bold'>Drag your images here, or <span className='text-red-600 cursor-pointer' onClick={() => document.getElementById("file-input").click()}>browse</span></p>
+                  {file && <p>{file.name}</p>}
+                  <p style={{color: 'rgba(0, 0, 0, 0.5)'}}>Supported: JPG, JPEG, PNG</p>
+                  <input 
+                    type="file" 
+                    id="file-input" 
+                    style={{display: "none"}} 
+                    onChange={handleFileUpload} 
+                  />       
 
-                    <p className='text-center text-bold text-gray-900 sm:text-md text-lg'>Drag your images here, or <span type="file" className='text-red-600'><a href="/" className='text-center' onClick={() => document.getElementById("file-input").click()}>browse</a></span></p>
-                    <input type="file" id="file-input" style={{ display: "none" }}onChange={handleFileChange} />
-                      {file && <p>{file.name}</p>}
-                    {/* {file && <p>{file.name}</p>} */}
-                    <p className='text-center' style={{color: 'rgba(0, 0, 0, 0.5)'}}>Supported:  JPG, JPEG, PNG</p>
-                    {/* <input type="file" id="myFile" name="filename" /> */}
+                   
                   </div>
 
-                {/* </div> */}
               </div>
 
               <div class="p-2 w-full">
@@ -149,4 +139,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default AddNewProperty
