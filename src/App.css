@@ -69,6 +69,10 @@
   border: 2px solid red;
 }
 
+.header .burger{
+  display: none;
+}
+
 @media screen and (max-width: 768px){
   .header nav{
     display: none;
@@ -80,18 +84,24 @@
   }
   .header-content .heading-text{
     width: 100%;
-    font-size: 25px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.2;
   }
   .header-content .heading-map{
     width: 90%;
+  }
+  .header .burger{
+    display: block;
   }
 }
 
 
 /* ============About Styles================== */
 .about_container{
-  border: 2px solid red;
-  padding: 5rem 0;
+  /* border: 2px solid red; */
+  padding: 4rem 0;
 }
 
 .about-box{
@@ -117,6 +127,11 @@
   width: 58%;
   height: 100%;
 }
+
+.map_items-box {
+  width:32%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
 .map_items-box .my-icon{
   background: #FFFFFF;
   box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
@@ -134,6 +149,7 @@
   }
   .about_container h1{
     text-align: center;
+    font-size: 1.3rem;
   }
   .about-box{
     flex-direction: column;
@@ -145,32 +161,82 @@
   .about-box .about-box-divs{
     width: 100%;
   }
+
+  .map_items-box {
+    width:49%;
+  }
 }
 
 
 
 /* ============Listofproperty Styles================ */
 .property_container{
-  border: 2px solid blue;
+  padding: 2rem 0;
+  /* border: 2px solid blue; */
   background-color: #F5F5F5;
   /* height: 40vh; */
+}
+.property-heading{
+  max-width: 90%;
+  margin: 0 auto;
+}
+.property-heading h1{
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.property-heading h1:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 50%;
+  border-bottom: 3px solid #F4511E;
+}
+
+.property-heading a{
+  background-color: #F4511E;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .property-heading h1{
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .property-heading a{
+    background-color: #F4511E;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
 }
 
 
 /* ============Services Styles================== */
 .services_container{
-  border: 2px solid green;
+  padding: 5rem 0 0 0;
 }
 .services_container .row{
   /* border: 2px solid green; */
-  height: 85vh;
+  height: 80vh;
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
 }
 
 .services_left{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 55%;
   height: 100%;
 }
@@ -180,14 +246,14 @@
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   height: 100%;
   }
   
-  .parent .div1 { grid-area: 1 / 1 / 4 / 2; border: 2px solid blue;}
-  .parent .div2 { grid-area: 4 / 1 / 6 / 2; border: 2px solid blue;}
-  .parent .div3 { grid-area: 1 / 2 / 3 / 3; border: 2px solid blue;}
-  .parent .div4 { grid-area: 3 / 2 / 6 / 3; border: 2px solid blue;}
+  .parent .div1 { grid-area: 1 / 1 / 4 / 2;}
+  .parent .div2 { grid-area: 4 / 1 / 6 / 2;}
+  .parent .div3 { grid-area: 1 / 2 / 3 / 3;}
+  .parent .div4 { grid-area: 3 / 2 / 6 / 3;}
 
 
   .div1 img{
@@ -208,10 +274,10 @@
   }
 
 .services_right{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 45%;
   height: 100%;
-  padding: 0 2.5rem;
+  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -242,6 +308,9 @@
 }
 
 @media screen and (max-width: 768px){
+  .services_container{
+    padding: 2rem 0 0 0;
+  }
   .services_container .row{
     flex-direction: column;
     height: 100%;
@@ -251,7 +320,7 @@
   }
   .services_right{
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
   }
   .services_right h2{
     font-size: 1.5rem;
@@ -259,7 +328,6 @@
   }
   .services_right p{
     font-size: 0.8rem;
-
   }
   .services_right a{
     padding: 0.5rem 1rem;
@@ -274,22 +342,12 @@
 
 /* ============Contact Styles================== */
 .contact_container{
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   height: 100%;
 }
 
-.try .uploadphoto{
-  border: 2px dashed #F4511E;
-  border: 10px;
-  height: 100px;
-  width: 100px;
-}
 
 @media screen and (max-width: 768px){
-  /* .row{
-    max-width: 100%;
-    margin: 0 auto;
-  } */
   .mobres{
     width: 100%;
   }
@@ -299,12 +357,12 @@
 
 /* ============Testimony Styles================== */
 .testimony_container{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 90vh;
   width: 100%;
 }
 .testimony_container .testimony_content{
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -313,7 +371,7 @@
 .testimony_content .testimony_left{
   width: 50%;
   height: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: rgba(244, 81, 30, 0.07);
   display: flex;
   flex-direction: column;
@@ -321,31 +379,32 @@
   padding: 1rem;
 }
 
-/* .testimony_left .para{
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  margin: 0 auto;
-  max-width: 90%;
-} */
-
-/* .testimony_left .profile{
-  display: flex;
-}
-.testimony_left .profile p{
-  border: 2px solid red;
-} */
 .testimony_content .testimony_right{
   width: 50%;
   height: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 
 }
 
-/* .testimony_content .testimony_left{
-  width: 55%;
-  height: 100%;
-} */
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
+.activee{
+  background-color: #F4511E;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
 @media screen and (max-width: 768px){
   .testimony_container{
     height: 100vh;
@@ -369,6 +428,122 @@
 
 /* ============Footer Styles================== */
 .footer_container{
-  border: 2px solid red;
-  height: 40vh;
+  /* border: 2px solid red; */
+  height: 45vh;
+}
+
+.footer-content{
+  border-top: 3px solid #F4511E;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content .footer-left{
+  /* border: 2px solid green; */
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.footer-content .footer-right{
+  /* border: 2px solid blue; */
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_container .footer-links{
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.footer_container .footer-links a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0A142F;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.footer-links p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0A142F;
+  mix-blend-mode: normal;
+opacity: 0.7;
+}
+.logomi{
+  width: 70%;
+}
+
+@media screen and (max-width: 768px){
+  .footer-content{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-content .footer-left{
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .footer-content .footer-right{
+    width: 100%;
+  }
+  .footer_container .footer-links{
+    flex-direction: column;
+    background-color: #7886B5;
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+  .footer_container .footer-links a{
+    padding: 0.6rem;
+    font-size: 0.85rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  .footer-links p{
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    padding: 10px 0;
+  }
+
+  .logomi{
+    margin-top: 1rem;
+  }
+  .row{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+
+.fa-solid, .fa-brands{
+  color: #F4511E;
+  font-size: 1rem;
+  padding: 0.8rem;
+}
+@media screen and (max-width: 768px){
+  .fa-solid, .fa-brands{
+    padding: 0.5rem;
+  }
 }

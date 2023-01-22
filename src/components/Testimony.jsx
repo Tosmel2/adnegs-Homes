@@ -4,7 +4,7 @@ import avat from '../assets/avat.png';
 
 const Testimony = () => {
   return (
-    <div className='testimony_container'>
+    <div className='testimony_container mb-10'>
       <div className='testimony_content'>
 
         <div className='testimony_left'>
@@ -22,23 +22,25 @@ const Testimony = () => {
               <span class="text-gray-500 text-sm">Property Owner</span>
             </span>
           </a>
+          <div className="mt-5 md:ml-10 sm:ml-5">
+          <span className="dot activee" onclick="currentSlide(1)"></span>
+          <span className="dot" onclick="currentSlide(2)"></span>
+          <span className="dot" onclick="currentSlide(3)"></span>
         </div>
         </div>
-          {/* <p className='para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
-          </p>
-          <div className='profile'>
-            <img src={avat} className='testimony_img' alt='avatar'/>
-            <p><span style={{color:'#F4511E'}}>Harry Wilson</span><br />Property Owner</p>
-          </div> */}
+        </div>
+ 
         </div>
         </div>
 
-        <div className='testimony_right' style={{ 
+        <div className='testimony_right relative' style={{ 
           backgroundImage: `url(${testi1})`,
          backgroundRepeat: 'no-repeat',
          backgroundPosition: 'center',
          backgroundSize: 'cover',
          }}>
+
+          <span className='absolute inset-0 flex items-center justify-center'><i class="fa-solid fa-play text-center text-4xl" style={{padding: '5px', backgroundColor: '#F4511E', color: '#fff', borderRadius: '50%', height:'50px', width: '50px'}}></i></span>
           
         </div>
 
@@ -48,3 +50,4 @@ const Testimony = () => {
 }
 
 export default Testimony
+

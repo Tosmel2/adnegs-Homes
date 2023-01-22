@@ -1,22 +1,20 @@
 import React from 'react'
 import lop1 from '../assets/lop1.svg';
-// import fl1 from '../assets/fl1.png';
-// import fl2 from '../assets/fl2.png';
-// import fl3 from '../assets/fl3.png';
-// import fl4 from '../assets/fl4.png';
 import lop2 from '../assets/lop2.png';
 import lop3 from '../assets/lop3.png';
 import lop4 from '../assets/lop4.png';
 import lop5 from '../assets/lop5.png';
 import lop33 from '../assets/lop33.png';
-// import ml1 from '../assets/ml1.png';
-// import testi1 from '../assets/testi1.png';
-// import herobg from '../assets/herobg.png';
+
 
 const ListOfProperties = () => {
   return (
     <div className='property_container'>
       <div className='row'>
+        <div className='flex justify-between property-heading py-5'>
+          <h1>List of Properties</h1>
+          <a href='/'>View All Property</a>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         <div class="cursor-pointer rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
         <div class="relative flex items-end overflow-hidden rounded-xl">
@@ -32,13 +30,13 @@ const ListOfProperties = () => {
         </div>
 
         <div class="mt-1 p-2">
-          <h2 class="text-slate-700">The Malta Hotel</h2>
-          <p class="mt-1 text-sm text-slate-400">Italy, Europe</p>
+          <h2 class="text-slate-700">2578 Folsom street, san francisco, CA, 94110</h2>
+          <p class="mt-1 text-sm text-slate-400">Private Room</p>
 
           <div class="mt-3 flex items-end justify-between">
           <p>
-            <span class="text-lg font-bold text-orange-500">$1,421</span>
-            <span class="text-sm text-slate-400">/night</span>
+            <span class="text-lg font-bold text-red-500">$1,200</span>
+            <span class="text-sm text-slate-400">/month</span>
           </p>
 
           <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
@@ -64,13 +62,13 @@ const ListOfProperties = () => {
         </div>
 
         <div class="mt-1 p-2">
-          <h2 class="text-slate-700">The Malta Hotel</h2>
-          <p class="mt-1 text-sm text-slate-400">Italy, Europe</p>
+          <h2 class="text-slate-700">2578 Folsom street, san francisco, CA, 94110</h2>
+          <p class="mt-1 text-sm text-slate-400">Private Room</p>
 
           <div class="mt-3 flex items-end justify-between">
           <p>
-            <span class="text-lg font-bold text-orange-500">$1,421</span>
-            <span class="text-sm text-slate-400">/night</span>
+            <span class="text-lg font-bold text-red-500">$1,200</span>
+            <span class="text-sm text-slate-400">/month</span>
           </p>
 
           <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
@@ -96,13 +94,13 @@ const ListOfProperties = () => {
         </div>
 
         <div class="mt-1 p-2">
-          <h2 class="text-slate-700">The Malta Hotel</h2>
-          <p class="mt-1 text-sm text-slate-400">Italy, Europe</p>
+          <h2 class="text-slate-700">2578 Folsom street, san francisco, CA, 94110</h2>
+          <p class="mt-1 text-sm text-slate-400">Private Room</p>
 
           <div class="mt-3 flex items-end justify-between">
           <p>
-            <span class="text-lg font-bold text-orange-500">$1,421</span>
-            <span class="text-sm text-slate-400">/night</span>
+            <span class="text-lg font-bold text-red-500">$1,200</span>
+            <span class="text-sm text-slate-400">/month</span>
           </p>
 
           <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
@@ -131,13 +129,13 @@ const ListOfProperties = () => {
         </div>
 
         <div class="mt-1 p-2">
-          <h2 class="text-slate-700">The Malta Hotel</h2>
-          <p class="mt-1 text-sm text-slate-400">Italy, Europe</p>
+          <h2 class="text-slate-700">2578 Folsom street, san francisco, CA, 94110</h2>
+          <p class="mt-1 text-sm text-slate-400">Private Room</p>
 
           <div class="mt-3 flex items-end justify-between">
           <p>
-            <span class="text-lg font-bold text-orange-500">$1,421</span>
-            <span class="text-sm text-slate-400">/night</span>
+            <span class="text-lg font-bold text-red-500">$1,200</span>
+            <span class="text-sm text-slate-400">/month</span>
           </p>
 
             <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
@@ -163,13 +161,13 @@ const ListOfProperties = () => {
           </div>
 
           <div class="mt-1 p-2">
-            <h2 class="text-slate-700">The Malta Hotel</h2>
-            <p class="mt-1 text-sm text-slate-400">Italy, Europe</p>
+            <h2 class="text-slate-700">2578 Folsom street, san francisco, CA, 94110</h2>
+            <p class="mt-1 text-sm text-slate-400">Private Room</p>
 
             <div class="mt-3 flex items-end justify-between">
             <p>
-              <span class="text-lg font-bold text-orange-500">$1,421</span>
-              <span class="text-sm text-slate-400">/night</span>
+              <span class="text-lg font-bold text-red-500">$1,200</span>
+              <span class="text-sm text-slate-400">/month</span>
             </p>
 
             <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
@@ -195,13 +193,13 @@ const ListOfProperties = () => {
           </div>
 
           <div class="mt-1 p-2">
-            <h2 class="text-slate-700">The Malta Hotel</h2>
-            <p class="mt-1 text-sm text-slate-400">Italy, Europe</p>
+            <h2 class="text-slate-700">2578 Folsom street, san francisco, CA, 94110</h2>
+            <p class="mt-1 text-sm text-slate-400">Private Room</p>
 
             <div class="mt-3 flex items-end justify-between">
             <p>
-              <span class="text-lg font-bold text-orange-500">$1,421</span>
-              <span class="text-sm text-slate-400">/night</span>
+              <span class="text-lg font-bold text-red-500">$1,200</span>
+              <span class="text-sm text-slate-400">/month</span>
             </p>
 
             <div class="group inline-flex rounded-xl bg-orange-100 p-2 hover:bg-orange-200">
@@ -227,18 +225,11 @@ const ListOfProperties = () => {
 				<a href="facebook.com/user" target="_blank"
 					class="bg-white border border-gray-300 text-gray-500 hover:bg-orange-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
 			</li>
-			{/* <li>
-				<a href="facebook.com/user" target="_blank"
-					class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
-			</li> */}
+
 			<li>
 				<a href="facebook.com/user" target="_blank"
 					class="bg-orange-500 border border-gray-300 text-white hover:bg-orange-100 hover:text-blue-700  py-2 px-3 dark:border-gray-700 dark:bg-gray-700 dark:text-white">2</a>
 			</li>
-			{/* <li>
-				<a href="facebook.com/user" target="_blank"
-					class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
-			</li> */}
 			<li>
 				<a href="facebook.com/user" target="_blank"
 					class="bg-white border border-gray-300 text-gray-500 hover:bg-orange-100 hover:text-gray-700 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>

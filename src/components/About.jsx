@@ -1,7 +1,7 @@
 import React from 'react'
 import ml1 from '../assets/ml1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faLeaf, faCarrot, faGem, faUser, faAppleAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCircleDollarToSlot, faHouseUser, faLayerGroup, faSeedling, faShieldHalved, faMoneyCheck } from '@fortawesome/free-solid-svg-icons'
 
 
 const data = [
@@ -16,18 +16,18 @@ const data = [
 const About = () => {
 
   const icons = {
-    'icon1': faCoffee,
-    'icon2': faLeaf,
-    'icon3': faCarrot,
-    'icon4': faGem,
-    'icon5': faUser,
-    'icon6': faAppleAlt
+    'icon1': faCircleDollarToSlot,
+    'icon2': faHouseUser,
+    'icon3': faLayerGroup,
+    'icon4': faSeedling,
+    'icon5': faShieldHalved,
+    'icon6': faMoneyCheck
   }
 
   return (
     <div className='about_container'>
       <div className='row'>
-        <h1 className='pl-2 text-2xl font-bold' style={{border:'2px solid red'}}>minimum living cost takes care of everything</h1>
+        <h1 className='pl-2 text-3xl font-bold'>minimum living cost takes care of everything</h1>
 
         <div className='about-box'>
 
@@ -38,9 +38,9 @@ const About = () => {
           <div className="about-box-divs flex items-center">
             <div className="flex flex-wrap justify-between">
               {data.map((item, index) => (
-                <div className="map_items-box py-8 px-3" key={index} style={{width:'49%', boxShadow: '0px 12px 19px rgba(0, 0, 0, 0.15)'}}>
-                  <FontAwesomeIcon icon={icons[item.iconUrl]} size="lg" className="text-center my-icon" color="red" />
-                  <p className="font-bold text-start">{item.text}</p>
+                <div className="map_items-box py-8 px-4" key={index}>
+                  <FontAwesomeIcon icon={icons[item.iconUrl]} size="xl" className="text-center my-icon" color="red" />
+                  <p className="font-bold text-start mt-5">{item.text}</p>
                 </div>
               ))}
             </div>
