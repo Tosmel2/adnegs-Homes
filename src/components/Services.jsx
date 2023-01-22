@@ -25,11 +25,10 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className='services_right'>
-          <h2>Flexibility and options to suit your lifestyle.</h2>
+        <div className='services_right pt-10'>
+          <h2 className='pt-7'>Flexibility and options to suit your lifestyle.</h2>
           <p>You need it? We got it. We make finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.</p>
           <a href='/'>Search Rooms</a>
-          {/* <button>Hello</button> */}
         </div>
       </div>
     </div>
