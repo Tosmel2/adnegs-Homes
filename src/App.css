@@ -288,8 +288,6 @@
 .services_right h2{
   font-size: 2rem;
   font-weight: 600;
-
-  /* margin-bottom: 1rem; */
 }
 .services_right p{
   font-size: 1rem;
@@ -347,7 +345,9 @@
   height: 100%;
 }
 
-
+.mobres{
+  width: 32%;
+}
 @media screen and (max-width: 900px){
   .mobres{
     width: 100%;

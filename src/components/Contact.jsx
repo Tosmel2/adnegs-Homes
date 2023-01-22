@@ -25,35 +25,35 @@ const Contact = () => {
             <h2 className='text-2xl font-bold title-font mb-10 text-center' style={{color:'#F4511E'}}>Add A New Property</h2>
             <div class="flex flex-wrap -m-2">
               
-              <div class="p-2 w-1/3 mobres">
+              <div class="p-2 mobres">
                 <div class="relative">
                   <label for="name" class="leading-7 text-sm text-gray-600">Name <span className='text-red-600'>*</span></label>
                   <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                 </div>
               </div>
 
-                <div class="p-2 w-1/3 mobres">
+                <div class="p-2 mobres">
                 <div class="relative">
                   <label for="address" class="leading-7 text-sm text-gray-600">Address <span className='text-red-600'>*</span></label>
                   <input type="text" id="address" name="address" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                 </div>
                 </div>
 
-              <div class="p-2 w-1/3 mobres">
+              <div class="p-2 mobres">
                 <div class="relative">
                   <label for="unitNumber" class="leading-7 text-sm text-gray-600">Unit Number <span className='text-red-600'>*</span></label>
                   <input type="number" id="unitNumber" name="unitNumber" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                 </div>
               </div>
 
-              <div class="p-2 w-1/3 mobres">
+              <div class="p-2 mobres">
                 <div class="relative">
                   <label for="city" class="leading-7 text-sm text-gray-600">City <span className='text-red-600'>*</span></label>
                   <input type="text" id="city" name="city" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                 </div>
               </div>
 
-                <div class="p-2 w-1/3 mobres">
+                <div class="p-2 mobres">
                 <div class="relative">
                   <label for="states" class="leading-7 text-sm text-gray-600">State <span className='text-red-600'>*</span></label>
                   <input type="text" id="state" name="state" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
                 </div>
 
-              <div class="p-2 w-1/3 mobres">
+              <div class="p-2 mobres">
                 <div class="relative">
                   <label for="RoomType" class="leading-7 text-sm text-gray-600">Room Type <span className='text-red-600'>*</span></label>
                   <input type="text" id="roomType" name="roomType" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
@@ -84,14 +84,14 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div class="p-2 w-1/3 mobres">
+              <div class="p-2 mobres">
                 <div class="relative">
                   <label for="price" class="leading-7 text-sm text-gray-600">Price <span className='text-red-600'>*</span></label>
                   <input type="number" id="price" name="price" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                 </div>
               </div>
 
-                <div class="p-2 w-1/3 mobres">
+                <div class="p-2 mobres">
                 <div class="relative">
                   <label for="roomType" class="leading-7 text-sm text-gray-600">Room Type <span className='text-red-600'>*</span></label>
                   <input type="text" id="roomType" name="roomType" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
