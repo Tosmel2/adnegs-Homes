@@ -39,7 +39,7 @@ const About = () => {
             <div className="flex flex-wrap justify-between">
               {data.map((item, index) => (
                 <div className="map_items-box py-8 px-4" key={index}>
-                  <FontAwesomeIcon icon={icons[item.iconUrl]} size="xl" className="text-center my-icon" color="red" />
+                  <FontAwesomeIcon icon={icons[item.iconUrl]} size="xl" className="text-center my-icon"  />
                   <p className="font-bold text-start mt-5">{item.text}</p>
                 </div>
               ))}
